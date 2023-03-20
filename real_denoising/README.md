@@ -7,10 +7,10 @@ Download the [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/dataset.php), [RENOIR]
 - Generate image patches from high-resolution training images of SIDD and RENOIR datasets
 ```
 first: 
-python generate_patches_SIDD.py --ps 180 --num_patches 200 --num_cores 16
+python generate_patches_SIDD.py --ps 140 --num_patches 200 --num_cores 16
 
 second:
-python generate_patches_RENOIR.py --ps 180 --num_patches 200 --num_cores 16
+python generate_patches_RENOIR.py --ps 140 --num_patches 200 --num_cores 16
 ```
 
 - train the model with default arguments by running
