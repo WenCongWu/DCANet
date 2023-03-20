@@ -11,7 +11,7 @@ from skimage import img_as_ubyte
 import h5py
 import scipy.io as sio
 
-parser = argparse.ArgumentParser(description='Image Denoising using MPRNet')
+parser = argparse.ArgumentParser(description='Image Denoising using EDCNet')
 
 parser.add_argument('--input_dir', default='./Datasets/DND/', type=str, help='Directory of validation images')
 parser.add_argument('--result_dir', default='./results/DND/test/', type=str, help='Directory for results')
