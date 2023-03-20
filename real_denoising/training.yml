@@ -8,7 +8,7 @@ VERBOSE: True
 
 MODEL:
   MODE: 'Denoising'
-  SESSION: 'ECNNet'
+  SESSION: 'EDCNet'
 
 # Optimization arguments.
 OPTIM:
