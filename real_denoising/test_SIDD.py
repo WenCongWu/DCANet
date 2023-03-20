@@ -10,7 +10,7 @@ from EDCNet import EDCNet
 from skimage import img_as_ubyte
 import scipy.io as sio
 
-parser = argparse.ArgumentParser(description='Image Denoising using MPRNet')
+parser = argparse.ArgumentParser(description='Image Denoising using EDCNet')
 parser.add_argument('--input_dir', default='./Datasets/SIDD/test/', type=str, help='Directory of validation images')
 parser.add_argument('--result_dir', default='./results/SIDD/', type=str, help='Directory for results')
 parser.add_argument('--weights', default='./pretrained_models/model_denoising.pth', type=str, help='Path to weights')
