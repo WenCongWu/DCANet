@@ -17,7 +17,7 @@ def main():
 
     noise_level_img = 25                # set AWGN noise level for noisy image
     noise_level_model = noise_level_img  # set noise level for model
-    model_name = 'EDCNet_color'           # set denoiser model, 'EDCNet_gray' | 'EDCNet_color'
+    model_name = 'DCANet_color'           # set denoiser model, 'DCANet_gray' | 'DCANet_color'
     testset_name = 'Kodak24'               # set test set,  'BSD68' | 'CBSD68' | 'Set12'
     x8 = False                           # default: False, x8 to boost performance
     show_img = False                     # default: False
@@ -54,7 +54,7 @@ def main():
     # load model
     # ----------------------------------------
 
-    from models.network import EDCNet as net
+    from models.network import DCANet as net
     model = net(in_nc=n_channels, out_nc=n_channels, nc=64, bias=False)
     model.load_state_dict(torch.load(model_path), strict=True)
     model.eval()
