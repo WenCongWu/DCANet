@@ -6,12 +6,12 @@ import torch
 import torch.nn as nn
 import utils
 
-from EDCNet import EDCNet
+from DCANet import DCANet
 from skimage import img_as_ubyte
 import h5py
 import scipy.io as sio
 
-parser = argparse.ArgumentParser(description='Image Denoising using EDCNet')
+parser = argparse.ArgumentParser(description='Image Denoising using DCANet')
 
 parser.add_argument('--input_dir', default='./Datasets/DND/', type=str, help='Directory of validation images')
 parser.add_argument('--result_dir', default='./results/DND/test/', type=str, help='Directory for results')
@@ -32,7 +32,7 @@ if args.save_images:
     utils.mkdir(result_dir_img)
 
 # 1 for grayscale image, 3 for color image
-model_restoration = EDCNet(in_nc=3, out_nc=3, nc=64, bias=False)
+model_restoration = DCANet(in_nc=3, out_nc=3, nc=64, bias=False)
 
 
 utils.load_checkpoint(model_restoration, args.weights)
