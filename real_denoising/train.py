@@ -16,7 +16,7 @@ import time
 import numpy as np
 import utils
 from data_RGB import get_training_data, get_validation_data
-from EDCNet import EDCNet
+from DCANet import DCANet
 import losses
 from warmup_scheduler.scheduler import GradualWarmupScheduler
 from tqdm import tqdm
@@ -46,7 +46,7 @@ val_dir = opt.TRAINING.VAL_DIR
 
 ######### Model ###########
 # 1 for grayscale image, 3 for color image
-model_restoration = EDCNet(in_nc=3, out_nc=3, nc=64, bias=False)
+model_restoration = DCANet(in_nc=3, out_nc=3, nc=64, bias=False)
 model_restoration.cuda()
 
 device_ids = [i for i in range(torch.cuda.device_count())]
