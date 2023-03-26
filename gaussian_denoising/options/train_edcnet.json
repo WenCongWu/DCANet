@@ -1,5 +1,5 @@
 {
-  "task": "EDCNet"  //  root/task/images-models-options
+  "task": "DCANet"  //  root/task/images-models-options
   , "model": "plain" // "plain"
   , "gpu_ids": [0]
 
@@ -33,7 +33,7 @@
   }
 
   , "netG": {
-    "net_type": "edcnet" // "dncnn" | "edcnet"
+    "net_type": "dcanet" // "dncnn" | "dcanet"
     , "in_nc": 1        // input channel number
     , "out_nc": 1       // ouput channel number
     , "nc": 64       // 17 for "dncnn", 20 for dncnn3, 16 for "srresnet"
