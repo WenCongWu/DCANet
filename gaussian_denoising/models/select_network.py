@@ -32,8 +32,8 @@ def define_G(opt):
     # ----------------------------------------
     #  eudnet
     # ----------------------------------------
-    elif net_type == 'edcnet':
-        from models.network import EDCNet as net
+    elif net_type == 'dcanet':
+        from models.network import DCANet as net
         netG = net(in_nc=opt_net['in_nc'],
                    out_nc=opt_net['out_nc'],
                    nc=opt_net['nc'],
