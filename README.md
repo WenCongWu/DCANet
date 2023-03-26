@@ -1,6 +1,6 @@
-### EDCNet-PyTorch
+### DCANet-PyTorch
 
-This is a PyTorch implementation for EDCNet image denoising.
+This is a PyTorch implementation for DCANet image denoising.
 
 ### 1. Dependences
 * [PyTorch](http://pytorch.org/)
