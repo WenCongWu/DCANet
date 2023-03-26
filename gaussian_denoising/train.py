@@ -17,7 +17,7 @@ from data.select_dataset import define_Dataset
 from models.select_model import define_Model
 
 
-def main(json_path='options/train_edcnet.json'):
+def main(json_path='options/train_dcanet.json'):
 
     '''
     # ----------------------------------------
