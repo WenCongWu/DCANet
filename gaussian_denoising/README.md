@@ -1,4 +1,4 @@
-### How to run the EDCNet model for Gaussian denoising
+### How to run the DCANet model for Gaussian denoising
 
 ### 1 dataset download
 
@@ -18,15 +18,15 @@ download the [DIV2K_HR](http://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.z
         python convert_gray.py
 ```        
    
-### 3. Train EDCNet
+### 3. Train DCANet
 
 ```
 python train.py 
 
-Note: for the training of grayscale and color images, you need to modify the parameters of the gaussian_denoising/options/train_edcnet.json file, including n_channels, dataroot_H, in_nc and out_nc.
+Note: for the training of grayscale and color images, you need to modify the parameters of the gaussian_denoising/options/train_dcanet.json file, including n_channels, dataroot_H, in_nc and out_nc.
 ```
 
-### 4. Test EDCNet
+### 4. Test DCANet
 
 ```
 python test.py
