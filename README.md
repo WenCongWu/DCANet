@@ -1,6 +1,6 @@
 ### DCANet-PyTorch
 
-This is a PyTorch implementation for DCANet image denoising. Paper download: [DCANet](https://arxiv.org/abs/2304.01498).
+This is a PyTorch implementation for DCANet image denoising. ArXiv paper download: [DCANet](https://arxiv.org/abs/2304.01498). MS paper download: [DCANet](https://link.springer.com/article/10.1007/s00530-024-01469-8).
 
 ### 1. Dependences
 * [PyTorch](http://pytorch.org/)
