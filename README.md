@@ -8,7 +8,7 @@ This is a PyTorch implementation for DCANet image denoising. The arXiv paper dow
 * [OpenCV](https://pypi.org/project/opencv-python/)
 
 ### 2. Citation
-If you find DRANet helpful for your research, please consider citing our work.
+If you find DCANet helpful for your research, please consider citing our work.
 ```BibTex
 @article{WuL2024,
   author       = {Wencong Wu and
