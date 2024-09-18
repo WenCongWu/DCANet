@@ -11,12 +11,17 @@ This is a PyTorch implementation for DCANet image denoising. The arXiv paper dow
 If you find DCANet helpful for your research, please consider citing our work.
 ```BibTex
 @article{WuL2024,
-  title={Dual convolutional neural network with attention for image blind denoising},
-  author={Wu, Wencong and Lv, Guannan and Duan, Yingying and Liang, Peng and Zhang, Yungang and Xia, Yuelong},
-  journal={Multimedia Systems},
-  volume={30},
-  number={5},
-  pages={1--20},
-  year={2024}
+  author       = {Wencong Wu and
+                  Guannan Lv and
+                  Yingying Duan and
+                  Peng Liang and
+                  Yungang Zhang and
+                  Yuelong Xia},
+  title        = {Dual convolutional neural network with attention for image blind denoising},
+  journal      = {Multimedia Systems},
+  volume       = {30},
+  number       = {5},
+  pages        = {263},
+  year         = {2024}
 }
 ```
